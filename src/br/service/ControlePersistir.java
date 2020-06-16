@@ -73,6 +73,14 @@ public class ControlePersistir {
                 String arquiv9 = vetorItens[2] + ";" + vetorItens[3] + ";" + vetorItens[4] + ";" + vetorItens[5] + ";" + vetorItens[6] + "|";
                 serverIncluir.incluir(arquiv9);
                 break;
+            case "Devolucao":
+                String arquivd = vetorItens[2] + ";" + vetorItens[3] + ";" + vetorItens[4] + ";" + vetorItens[5] + ";" + vetorItens[6] + "|";
+                serverIncluir.incluir(arquivd);
+                break;
+            case "Emprestimo":
+                String arquivE = vetorItens[2] + ";" + vetorItens[3] + ";" + vetorItens[4] + ";" + vetorItens[5] + ";" + vetorItens[6] + "|";
+                serverIncluir.incluir(arquivE);
+                break;
             default:
                 System.out.println("Erro! Incluindo");
                 break;
